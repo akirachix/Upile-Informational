@@ -1,11 +1,22 @@
-import LostLocateFeatures from "./components/Features/index";
+import PartnerLogo from "./components/Partners";
+import LostLocateFeatures from "./components/Features";
+ 
+
+ 
 
   export default function Home() {
     return (
       <div>
         <main>
-          <LostLocateFeatures/>
+        <LostLocateFeatures/>
+          <PartnerLogo />
         </main>
       </div>
     );
   }
+
+
+
+
+ 
+
