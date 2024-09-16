@@ -8,7 +8,7 @@ const Landing = () => {
     <div
       className="min-h-screen bg-gray-100 flex flex-col"
       style={{
-        backgroundImage: "url('/images/lostlocate.png')" ,
+        backgroundImage: "url('/images/lostlocate_img.png')" ,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
