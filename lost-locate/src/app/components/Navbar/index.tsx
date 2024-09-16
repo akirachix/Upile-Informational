@@ -45,7 +45,7 @@ const Navbar = () => {
                 </div>
 
                 <ul className="hidden lg:flex xl:flex lg:space-x-10 xl:space-x-36 mr-12">
-                    {['home', 'about', 'features', 'contacts', 'partners'].map((link, index) => (
+                    {['home', 'updates', 'features', 'about', 'partners'].map((link, index) => (
                         <li key={index} className={`font-bold text-[24px] lg:text-[20px] xl:text-[22px]`}>
                             <Link
                                 href={`#${link}`}
@@ -65,7 +65,7 @@ const Navbar = () => {
                 {isOpen && (
                     <div className="fixed top-0 left-0 w-full h-screen bg-black bg-opacity-90 z-40 lg:hidden xl:hidden">
                         <ul className="flex flex-col items-center justify-center h-full space-y-4 pl-8 pr-8">
-                            {['home', 'about', 'features', 'contacts', 'partners'].map((link, index) => (
+                            {['home', 'updates', 'features', 'about', 'partners'].map((link, index) => (
                                 <li key={index} className={`font-bold text-lg sm:text-xl`}>
                                     <Link
                                         href={`#${link}`}
