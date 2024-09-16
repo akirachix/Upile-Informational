@@ -1,5 +1,6 @@
 import PartnerLogo from "./components/Partners";
 import LostLocateFeatures from "./components/Features";
+import Updates from "./components/Updates";
  
 
  
@@ -8,8 +9,9 @@ import LostLocateFeatures from "./components/Features";
     return (
       <div>
         <main>
+        <Updates/>
         <LostLocateFeatures/>
-          <PartnerLogo />
+        <PartnerLogo />
         </main>
       </div>
     );
