@@ -1,7 +1,6 @@
-
-  import Head from "next/head";
-  import PartnerLogo from "./components/Partners/index";
-  import LostLocateFeatures from "./components/Features/index";
+import PartnerLogo from "./components/Partners";
+import LostLocateFeatures from "./components/Features";
+ 
 
  
 

@@ -31,13 +31,7 @@ const PartnerLogo = () => {
           className='w-full h-64 ml-18 mx-4 mb-4
            sm:w-[100px] md:w-96 lg:w-40 xl:w-72
            sm:h-44 md:h-64 lg:h-40 xl:h-64 2xl:w-96 2xl:h-96 sm:mx-2 sm:mb-2 rounded-[40px]'
-          // className="w-full h-96 ml-18 rounded-[40px] mx-4 mb-4  
-          //   md:w-96 md:h-64 lg:w-40 lg:h-40 xl:w-72 xl:h-64 2xl:w-96 2xl:h-96 
-          //   sm:w-[100px] sm:h-44 sm:mx-2 sm:mb-2 "
         />
-        // w-full h-64 
-        // sm:w-[100px] md:w-[150px] lg:w-[275px] xl:w-[330px] 
-        // sm:h-44 md:h-40 lg:h-52 xl:h-56"
       ))}
     </div>
   </div>
