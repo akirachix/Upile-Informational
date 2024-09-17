@@ -3,7 +3,7 @@ import { CiCalendar } from "react-icons/ci";
 import { LiaFemaleSolid, LiaMaleSolid } from "react-icons/lia";
 
 const PersonCard = ({ name, location, image, age, gender }:{name:string, location:string, image:string, age:number, gender:string}) => (
-  <div className="bg-white rounded-xl shadow-md overflow-hidden border-[#662113] border-2 w-full h-96 max-w-xs mx-auto xl:h-[380px] 2xl:h-88">
+  <div id='updates' className="bg-white rounded-xl shadow-md overflow-hidden border-[#662113] border-2 w-full h-96 max-w-xs mx-auto xl:h-[380px] 2xl:h-88">
     <img src={image} alt={name} className="w-full h-56 object-cover" />
     <div className="p-4">
       <h3 className="font-bold mt-2 mb-2 text-[24px] lg:text[18px] xl:text-[18px]">{name}</h3>

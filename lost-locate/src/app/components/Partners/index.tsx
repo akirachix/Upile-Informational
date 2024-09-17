@@ -18,7 +18,7 @@ const partnerLogos = [
 
 const PartnerLogo = () => {
   return (
-    <div className="p-20">
+    <div id='partners' className="p-20">
     <h2 className="text-[32px] font-bold text-center mt-4 text-[#662113] sm:text-[28px] md:text-[34px] lg:text-[36px] xl:text-[40px] font-bold text-center mb-4 sm:mb-4 md:mb-6 lg:mb-6">
       Partners
     </h2>
