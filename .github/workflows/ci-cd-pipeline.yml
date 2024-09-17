@@ -5,6 +5,7 @@ on:
       - main
       - staging
       - dev
+      - feature/cicd-pipeline
 jobs:
   deploy:
     runs-on: ubuntu-latest
