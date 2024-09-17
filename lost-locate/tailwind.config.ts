@@ -9,8 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'regal-blue': '#243c5a',
       },
     },
   },
@@ -30,13 +29,13 @@ export default config;
 //   theme: {
 //     extend: {
 //       colors: {
-//         background: "var(--background)",
-//         foreground: "var(--foreground)",
+//         'regal-blue': '#243c5a',
 //       },
 //       screens: {
-//         'ipad-mini': '768px',
-//         'ipad-pro': '1024px',
-//         'surface-pro': '912px',
+//         'ipad-mini': '768px',      // For iPad Mini
+//         'ipad-pro': '1024px',      // For iPad Pro
+//         'surface-duo': '540px',    // For Surface Duo (single screen)
+//         'surface-duo-expanded': '720px',  // For Surface Duo (expanded)
 //       },
 //     },
 //   },

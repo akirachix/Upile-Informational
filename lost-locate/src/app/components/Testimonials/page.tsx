@@ -1,6 +1,3 @@
-
-
-
 import React from 'react';
 
 const testimoniesData = [
@@ -23,37 +20,40 @@ const testimoniesData = [
 
 const Testimonies = () => {
     return (
-        <div className="px-6 sm:px-12 md:px-24 lg:px-24 xl:px-24 mt-24 testimonies-container">
-            <h1 className="text-center text-[#662113] text-[32px] sm:text-[36px] md:text-[40px] font-bold mb-12">
+        <div className="px-4 sm:px-6 md:px-12 lg:px-24 xl:px-24 mt-24">
+            <h1 className="text-center text-[#662113] text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-bold mb-12">
                 Testimonies
             </h1>
 
-            <div className="flex flex-col md:flex-row md:justify-between gap-12 items-stretch ipad-mini:block ipad-pro:block surface-pro:block ">
+            <div className="flex flex-wrap gap-4 md:gap-6 lg:gap-8 xl:gap-14 justify-center items-stretch">
                 {testimoniesData.map((testimony, index) => (
                     <div
                         key={index}
-                        className="flex flex-col items-center text-center w-full md:w-[600px] xl:w-[600px] testimony-card  "
+                        className="flex flex-col items-center text-center w-full sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[300px] mb-6"
                     >
-                        <img
-                            src={testimony.imgSrc}
-                            alt={testimony.name}
-                            className="w-full object-cover rounded-t-[29px] rounded-b-[5px] h-40 md:h-48 lg:h-56 xl:h-64"
-                        />
+                        <div className="relative w-full pb-[56.25%]"> 
+                            <img
+                                src={testimony.imgSrc}
+                                alt={testimony.name}
+                                className="absolute top-0 left-0 w-full h-full object-cover rounded-t-[29px] rounded-b-[5px]"
+                            />
+                        </div>
 
-                        <div className="p-6 sm:p-8 lg:p-8 xl:p-8 w-full bg-white border-[#662113] border-l-2 border-r-2 border-b-2 rounded-b-[29px] flex-grow">
-                            <h2 className="font-bold text-[#662113] text-[20px] sm:text-[24px] md:text-[28px] lg:text-[32px] mb-4">
+                        <div className="p-4 sm:p-6 lg:p-8 w-full bg-white border-[#662113] border-l-2 border-r-2 border-b-2 rounded-b-[29px] flex-grow">
+                            <h2 className="font-bold text-[#662113] text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] mb-4">
                                 {testimony.name}
                             </h2>
-                            <p className="text-[#662113] leading-relaxed text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
+                            <p className="text-[#662113] leading-relaxed text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]">
                                 "{testimony.text}"
                             </p>
                         </div>
                     </div>
                 ))}
-                </div>
             </div>
-        // </div>
+        </div>
     );
 };
 
 export default Testimonies;
+
+
