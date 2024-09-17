@@ -4,9 +4,8 @@ import Image from "next/image";
 import Landing from "./components/Landing";
 import Partners from "./components/Partners";
 import Features from "./components/Features";
-import PartnerLogo from "./components/Partners";
-import LostLocateFeatures from "./components/Features";
 import Updates from "./components/Updates";
+import Footer from "./components/Footer";
 
   export default function Home() {
     return (
@@ -18,7 +17,7 @@ import Updates from "./components/Updates";
          <Mission/>
       <Testimonies/>
          <Partners/>
-        
+         <Footer/>
         </main>
       </div>
     );
