@@ -22,7 +22,7 @@ const LostLocateFeatures = () => {
         <FeatureIcon Icon={Briefcase} text="Case Management Tools" />
         <FeatureIcon Icon={TagIcon} text="Match" />
       </div>
-      <div className="p-4 sm:p-6 md:p-8 lg:p-10 xl:py-24 h-auto  w-auto bg-[#662113] mt-12 sm:mt-16 md:mt-20 lg:mt-0">
+      <div className="p-4 sm:p-6 md:p-8 lg:p-10 xl:py-24 h-auto  w-auto bg-[#662113] mt-2 sm:mt-16 md:mt-20 lg:mt-0">
         <h3 className="text-[32px] sm:text-[30px] md:text-[34px] lg:text-[36px] xl:text-[40px] text-center font-semibold text-[#D4B337] mb-4 sm:mb-6 md:mb-8 lg:mb-4">
           Why Choose LostLocate?
         </h3>

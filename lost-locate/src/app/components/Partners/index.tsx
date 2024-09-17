@@ -28,9 +28,9 @@ const PartnerLogo = () => {
           key={index}
           src={logo.src}
           alt={logo.alt}
-          className='w-full h-64 ml-18 mx-4 mb-4
+          className='w-72 h-40 ml-18 mx-4 mb-4
            sm:w-[100px] md:w-96 lg:w-40 xl:w-72
-           sm:h-44 md:h-64 lg:h-40 xl:h-64 2xl:w-96 2xl:h-96 sm:mx-2 sm:mb-2 rounded-[40px]'
+           sm:h-52 md:h-64 lg:h-40 xl:h-64 2xl:w-96 2xl:h-96 sm:mx-2 sm:mb-2 rounded-[40px]'
         />
       ))}
     </div>
