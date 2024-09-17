@@ -6,6 +6,7 @@ import Partners from "./components/Partners";
 import Features from "./components/Features";
 import Updates from "./components/Updates";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
   export default function Home() {
     return (
@@ -13,6 +14,7 @@ import Footer from "./components/Footer";
         <main>
          <Landing/>
          <Updates/>
+         <About/>
          <Features/>
          <Mission/>
       <Testimonies/>
