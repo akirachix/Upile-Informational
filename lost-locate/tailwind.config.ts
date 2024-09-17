@@ -9,11 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'regal-blue': '#243c5a',
       },
     },
+    // screens: {
+    //   'im': '912px',
+    //   'nh': '1024px',
+    //   'ms': '1280px',
+    //   'nhp': '1200px',
+    //   'ls': '1366px',
+    // },
   },
   plugins: [],
 };
 export default config;
+
+
