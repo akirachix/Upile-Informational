@@ -12,7 +12,7 @@ const FeatureIcon = ({ Icon, text }: { Icon: React.ForwardRefExoticComponent<Omi
 
 const LostLocateFeatures = () => {
   return (
-    <div className="bg-white p-4 sm:p-6 md:p-8 lg:p-12 xl:p-6">
+    <div id='features' className="bg-white p-4 sm:p-6 md:p-8 lg:p-12 xl:p-6">
       <h2 className="text-[32px] sm:text-[28px] md:text-[34px] lg:text-[36px] xl:text-[40px] font-bold text-center mb-4 sm:mb-4 md:mb-6 lg:mb-6 text-orange-950">
         Features
       </h2>
