@@ -1,6 +1,6 @@
 import PartnerLogo from "./components/Partners";
 import LostLocateFeatures from "./components/Features";
- 
+import Footer from "./components/Footer";
 
  
 
@@ -10,6 +10,7 @@ import LostLocateFeatures from "./components/Features";
         <main>
         <LostLocateFeatures/>
           <PartnerLogo />
+          <Footer/>
         </main>
       </div>
     );
