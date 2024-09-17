@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 
 const partnerLogos = [
@@ -24,7 +25,7 @@ const PartnerLogo = () => {
     </h2>
     <div className="flex flex-wrap  justify-center items-center mt-24 mb-[10px] gap-24 2xl:justify-between">
       {partnerLogos.map((logo, index) => (
-        <img
+        <Image
           key={index}
           src={logo.src}
           alt={logo.alt}

@@ -1,4 +1,4 @@
-import Image from "next/image";
+
  import Mission from "./components/Mission/page";
  import Testimonies from "./components/Testimonials/page";
 import Landing from "./components/Landing";
