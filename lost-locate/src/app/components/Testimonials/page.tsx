@@ -45,7 +45,7 @@ const Testimonies = () => {
                                 {testimony.name}
                             </h2>
                             <p className="text-[#662113] leading-relaxed text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]">
-                                "{testimony.text}"
+                                {testimony.text}
                             </p>
                         </div>
                     </div>
