@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const testimoniesData = [
     {
@@ -32,7 +33,7 @@ const Testimonies = () => {
                         className="flex flex-col items-center text-center w-full sm:w-[300px] md:w-[350px] lg:w-[400px] xl:w-[300px] mb-6"
                     >
                         <div className="relative w-full pb-[56.25%]"> 
-                            <img
+                            <Image
                                 src={testimony.imgSrc}
                                 alt={testimony.name}
                                 className="absolute top-0 left-0 w-full h-full object-cover rounded-t-[29px] rounded-b-[5px]"
@@ -44,7 +45,7 @@ const Testimonies = () => {
                                 {testimony.name}
                             </h2>
                             <p className="text-[#662113] leading-relaxed text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]">
-                                "{testimony.text}"
+                                {testimony.text}
                             </p>
                         </div>
                     </div>

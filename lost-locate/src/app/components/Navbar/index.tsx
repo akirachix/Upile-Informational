@@ -6,7 +6,7 @@ import { useState } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Image from "next/image";
 import {Inter} from "next/font/google"
-import next from "next/types";
+
 
 const inter = Inter({subsets: ['latin']});
 const Navbar = () => {
