@@ -4,17 +4,17 @@ import Image from 'next/image';
 const testimoniesData = [
     {
         name: 'Nataly Wambui',
-        imgSrc: './media/Nataly.jpg',
+        imgSrc: '/media/Nataly.png',
         text: "Thanks to this platform, we were able to quickly share information about our missing child with the public."
     },
     {
         name: "Sharon Njung'e",
-        imgSrc: './media/Sharon.jpg',
+        imgSrc: '/media/Sharon.jpg',
         text: "As a police officer, this platform has been a game-changer for our search and rescue efforts, improving coordination."
     },
     {
         name: 'Hannah Unyolo',
-        imgSrc: './media/Hannah.jpg',
+        imgSrc: '/media/Hannah.jpg',
         text: "Using this platform has greatly enhanced our workflow, helping us cross-reference information efficiently for identification."
     }
 ];
@@ -37,6 +37,8 @@ const Testimonies = () => {
                                 src={testimony.imgSrc}
                                 alt={testimony.name}
                                 className="absolute top-0 left-0 w-full h-full object-cover rounded-t-[29px] rounded-b-[5px]"
+                                width={500}
+                                height={300}
                             />
                         </div>
 
